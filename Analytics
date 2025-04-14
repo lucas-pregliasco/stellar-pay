@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StelarPay - Pagos Globales, Cobros Locales</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0c487f;
+      color: #fff;
+      padding: 1.5em 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    nav {
+      margin-top: 1em;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x600?text=EstelarPay+Hero') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      background: rgba(12, 72, 127, 0.8);
+      padding: 0.5em 1em;
+      border-radius: 4px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 2em auto;
+    }
+
+    section {
+      background: #fff;
+      padding: 2em;
+      margin-bottom: 2em;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      margin-bottom: 1em;
+      color: #0c487f;
+      text-align: center;
+    }
+
+    section p {
+      margin-bottom: 1em;
+      text-align: justify;
+    }
+
+    .metrics-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+    }
+
+    .metrics-table th,
+    .metrics-table td {
+      border: 1px solid #ddd;
+      padding: 0.75em;
+      text-align: center;
+    }
+
+    .metrics-table th {
+      background: #0c487f;
+      color: #fff;
+    }
+
+    footer {
+      background: #0c487f;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      
+      .hero h2 {
+        font-size: 2em;
+      }
+
+      .metrics-table th,
+      .metrics-table td {
+        font-size: 0.9em;
+        padding: 0.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header y Navegación -->
+  <header>
+    <h1>EstelarPay</h1>
+    <nav>
+      <a href="#vision">Visión</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#metrics">Métricas</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  
+  <!-- Sección Hero -->
+  <div class="hero">
+    <h2>Pagos Globales, Cobros Locales</h2>
+  </div>
+  
+  <!-- Contenedor Principal -->
+  <div class="container">
+    <!-- Sección Visión -->
+    <section id="vision">
+      <h2>Nuestra Visión</h2>
+      <p>
+        EstelarPay nace para romper las barreras de los pagos internacionales y la conversión de moneda, ofreciendo una solución que conecta turistas con comercios locales. Utilizando la tecnología blockchain y stablecoins, nuestro objetivo es transformar la experiencia de pagos en mercados con restricciones cambiarias.
+      </p>
+    </section>
+    
+    <!-- Sección Objetivos -->
+    <section id="objetivos">
+      <h2>Nuestros Objetivos</h2>
+      <p>
+        <strong>Corto Plazo:</strong> Lanzar el MVP en Buenos Aires y validar el proceso de conversión y pagos con aliados estratégicos.
+      </p>
+      <p>
+        <strong>Mediano Plazo:</strong> Ampliar la red de comercios y agentes, y optimizar la experiencia del usuario integrando más métodos de carga.
+      </p>
+      <p>
+        <strong>Largo Plazo:</strong> Expandirnos en América Latina, convirtiéndonos en la referencia para pagos turísticos en mercados emergentes.
+      </p>
+    </section>
+    
+    <!-- Sección Métricas / Benchmarking -->
+    <section id="metrics">
+      <h2>Métricas Comparativas del Mercado</h2>
+      <p>
+        A continuación, presentamos un benchmark con algunas plataformas que ofrecen soluciones similares a la que propone EstelarPay. Estas métricas son representativas de los logros y el potencial de crecimiento en el sector:
+      </p>
+      <table class="metrics-table">
+        <thead>
+          <tr>
+            <th>Plataforma</th>
+            <th>Volumen Transaccional Mensual</th>
+            <th>Usuarios Activos</th>
+            <th>Tiempo Promedio de Transacción</th>
+            <th>Comisión Promedio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Binance Pay</td>
+            <td>$100M+</td>
+            <td>5M+</td>
+            <td>< 1 seg</td>
+            <td>0.5% - 1%</td>
+          </tr>
+          <tr>
+            <td>Strike</td>
+            <td>$50M+</td>
+            <td>3M+</td>
+            <td>< 1 seg</td>
+            <td>0.5% - 1%</td>
+          </tr>
+          <tr>
+            <td>Lemon Cash</td>
+            <td>$20M+</td>
+            <td>1M+</td>
+            <td>< 2 seg</td>
+            <td>1% - 2%</td>
+          </tr>
+          <tr>
+            <td><strong>EstelarPay (Proyectado)</strong></td>
+            <td><strong>$5M+</strong></td>
+            <td><strong>500K+</strong></td>
+            <td><strong>< 1 seg</strong></td>
+            <td><strong>1% (con conversión en tiempo real)</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Estas métricas, basadas en datos públicos y estimaciones del sector, demuestran el potencial y el impacto que puede alcanzar una solución de pagos digital rápida y segura en mercados con restricciones cambiarias. EstelarPay se posiciona para aprovechar este mercado emergente con una propuesta única en conversiones en tiempo real y adopción de blockchain.
+      </p>
+    </section>
+    
+    <!-- Sección Equipo -->
+    <section id="equipo">
+      <h2>Nuestro Equipo</h2>
+      <p>
+        Actualmente, el proyecto está liderado únicamente por el Founder. Estamos en la búsqueda activa de desarrolladores y expertos en blockchain que se sumen al equipo para llevar esta solución revolucionaria al siguiente nivel.
+      </p>
+    </section>
+    
+    <!-- Sección Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        ¿Interesado en saber más o en sumarte a este proyecto? Escríbenos:
+      </p>
+      <p>
+        Email: <strong>contact@estelar-pay.com</strong><br>
+        Teléfono: <strong>+54 9 11 1234-5678</strong>
+      </p>
+    </section>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 EstelarPay. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
